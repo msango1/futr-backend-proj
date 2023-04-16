@@ -4,7 +4,7 @@ import  Book  from '../models/bookModel';
 
 /**
  * @swagger
- * /books/{id}:
+ * /api/books/{id}:
  *   put:
  *     summary: Update a book by ID
  *     description: Update an existing book in the in-memory array by its ID.

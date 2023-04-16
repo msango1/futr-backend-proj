@@ -3,7 +3,7 @@ import { getBookByIdService } from '../services/bookService';
 
 /**
  * @swagger
- * /books/{id}:
+ * /api/books/{id}:
  *   get:
  *     summary: Retrieve a book by ID
  *     description: Retrieve a single book from the in-memory array by its ID.

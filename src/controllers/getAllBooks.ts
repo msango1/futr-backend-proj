@@ -3,7 +3,7 @@ import { getAllBooksService } from '../services/bookService';
 
 /**
  * @swagger
- * /books:
+ * /api/books:
  *   get:
  *     summary: Retrieve a list of books
  *     description: Retrieve a list of books from the in-memory array.

@@ -4,7 +4,7 @@ import  Book  from '../models/bookModel';
 
 /**
  * @swagger
- * /books:
+ * /api/books:
  *   post:
  *     summary: Create a new book
  *     description: Create a new book and add it to the in-memory array.

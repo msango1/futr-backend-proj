@@ -3,7 +3,7 @@ import { deleteBookService } from '../services/bookService';
 
 /**
  * @swagger
- * /books/{id}:
+ * /api/books/{id}:
  *   delete:
  *     summary: Delete a book by ID
  *     description: Delete a book from the in-memory array by its ID.
