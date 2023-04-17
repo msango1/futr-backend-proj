@@ -1,5 +1,8 @@
 # Futr-ai backend project
 
+### Project Overview
+The aim of the project was to create an api which makes use of all CRUD operations. Allowing users to fetch all books, fetch books by ID, create new books, edit books & delete books.
+
 ### Project Initializatoin
 The following dependencies are used in this project:
 
