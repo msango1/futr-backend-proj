@@ -6,7 +6,7 @@ const options: swaggerJsdoc.Options = {
     info: {
       title: 'My API',
       version: '1.0.0',
-      description: 'A simple API using Node.js, TypeScript, and Express',
+      description: 'Book API using Node.js, TypeScript, and Express',
     },
     components: {
       schemas: {
@@ -63,6 +63,12 @@ const options: swaggerJsdoc.Options = {
               type: 'string',
               description: 'The ISBN of the book',
             },
+          },
+          example: {
+            title: 'The Alchemist',
+            author: 'Paulo Coelho',
+            year: 1988,
+            isbn: '123456789'
           },
         },
         BookUpdate: {
